@@ -1,7 +1,15 @@
+!
+! Title: AdGuard DNS filer
+! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads)
+! Last modified: 2022-08-18T19:40:00
+
 ||www.googleadservices.com^
+
+! Viber ads
 ||ads.aws.viber.com^
 ||rmp.rakuten.com^
 
+! Malicious and spam web sites
 ||131.skinhides.buzz^
 ||get-the-prize-ht3.live^
 ||burnihhell.live^
