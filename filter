@@ -1,9 +1,16 @@
 !
 ! Title: AdGuard DNS filer
 ! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads)
-! Last modified: 2022-08-18T19:40:00
+! Last modified: 2022-08-19T12:15:00
 
 ||www.googleadservices.com^
+
+! Gambling
+||admiral.hr^
+||www.admiral.hr^
+||chat.adminral.hr^
+||lotto.admiral.hr^
+||widget.admiral.hr^
 
 ! Viber ads
 ||ads.aws.viber.com^
@@ -17,3 +24,5 @@
 ||xcuq.clienterapido.it^
 ||modovia.de^
 ||133.palsaeduo.buzz^
+||mo01.biz^
+||chpok.sit^
