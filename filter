@@ -1,7 +1,7 @@
 !
 ! Title: AdGuard DNS filer
 ! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads)
-! Last modified: 2022-08-30T18:50:00
+! Last modified: 2022-09-04T16:30:00
 
 ||www.googleadservices.com^
 
@@ -28,6 +28,11 @@
 ||chpok.sit^
 ||1922.luckwedmenu.buzz^
 ||find-topaward-here.life^
+||322.birdphifelt.live^
+||meetsex2022.fun^
+||film-entreprise-film-mariage-jawen-production.fr^
+||redirmyto22.fun^
+||amismdocumentazione.it^
 
 ! Macedonia ads
 ||ads.vecer.mk^
