@@ -1,7 +1,7 @@
 !
 ! Title: AdGuard DNS filer
 ! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads)
-! Last modified: 2022-09-30T16:30:00
+! Last modified: 2022-10-11T14:20:00
 
 ||www.googleadservices.com^
 
@@ -48,8 +48,19 @@
 !!L
 ||limitedcharm.com^
 
+!!B
+||besttrackings.com^
+
+!!C
+||chelart-events.fr^
+||track.click999.com^
+
 !!G
 ||gdjesi14.cfd^
+||2412.ginseemore.live^
+
+!!I
+||instacreativedeals.com^
 
 !!M
 ||midas-network.com^
@@ -61,6 +72,12 @@
 ||monadplug.com^
 ||cdn.monadplug.com^
 ||monadlead.com^
+
+!!R
+||repappcloud.com^
+
+!!T
+||topawardhere.life^
 
 !!V
 ||vijesti136.shop^
