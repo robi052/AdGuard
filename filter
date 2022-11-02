@@ -1,7 +1,7 @@
 !
 ! Title: AdGuard DNS filer
 ! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads)
-! Last modified: 2022-10-11T14:20:00
+! Last modified: 2022-11-02T17:00:00
 
 ||www.googleadservices.com^
 
@@ -47,6 +47,9 @@
 !Fraud webistes
 !!L
 ||limitedcharm.com^
+
+!!0
+||0h7kjy.cn
 
 !!B
 ||besttrackings.com^
