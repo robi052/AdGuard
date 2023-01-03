@@ -1,7 +1,7 @@
 !
 ! Title: AdGuard DNS filer
 ! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads)
-! Last modified: 2022-11-02T17:00:00
+! Last modified: 2023-01-03T20:20:00
 
 ||www.googleadservices.com^
 
@@ -61,6 +61,7 @@
 !!G
 ||gdjesi14.cfd^
 ||2412.ginseemore.live^
+||cdn.germaniasport.hr^
 
 !!I
 ||instacreativedeals.com^
