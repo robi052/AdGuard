@@ -1,7 +1,9 @@
 !
 ! Title: AdGuard DNS filer
-! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads)
-! Last modified: 2023-06-13T08:05:00
+! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads
+!              and fake webisite outlets, shoes
+!	
+! Last modified: 2023-06-27T17:40:00
 
 ||www.googleadservices.com^
 
@@ -20,6 +22,9 @@
 ||igrajigre.co
 ||rs.igrajigre.co
 ||rs-portal.igrajigre.co
+
+! Fake outlets
+||adidayeezyhrvatska.com^
 
 ! Malicious and spam web sites
 ||131.skinhides.buzz^
