@@ -3,7 +3,7 @@
 ! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads
 !              and fake webisite outlets, shoes
 !	
-! Last modified: 2023-07-28T21:55:00
+! Last modified: 2023-07-28T22:40:00
 
 ||www.googleadservices.com^
 
@@ -25,6 +25,7 @@
 ||posta-hr.co^
 ||regional-express.sitey.me^
 ||storage.googleapis.com^
+||meta-appeal-b0ded.web.app^
 
 ! Fake outlets
 ||adidayeezyhrvatska.com^
