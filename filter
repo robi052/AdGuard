@@ -3,7 +3,7 @@
 ! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads
 !              and fake webisite outlets, shoes
 !	
-! Last modified: 2023-07-28T22:40:00
+! Last modified: 2023-08-13T19:30:00
 
 ||www.googleadservices.com^
 
@@ -85,6 +85,9 @@
 
 !!I
 ||instacreativedeals.com^
+
+!!L
+||lijeciprirodno.info^
 
 !!M
 ||midas-network.com^
