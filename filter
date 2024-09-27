@@ -3,31 +3,20 @@
 ! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads
 !              and fake webisite outlets, shoes
 !	
-! Last modified: 2024-09-10T21:35:00
+! Last modified: 2024-09-27T03:35:00
 
 ||www.googleadservices.com^
 
 ! Gambling
 ||admiral.hr^
 ||www.admiral.hr^
-||chat.adminral.hr^
+||chat.admiral.hr^
 ||lotto.admiral.hr^
 ||widget.admiral.hr^
 
 ! Viber ads
 ||ads.aws.viber.com^
 ||rmp.rakuten.com^
-
-! Scam
-||igrajigre.co^
-||rs.igrajigre.co^
-||rs-portal.igrajigre.co^
-||posta-hr.co^
-||regional-express.sitey.me^
-||meta-appeal-b0ded.web.app^
-
-! Fake outlets
-||adidayeezyhrvatska.com^
 
 ! Malicious and spam web sites
 ||131.skinhides.buzz^
