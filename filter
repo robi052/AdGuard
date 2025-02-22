@@ -3,16 +3,12 @@
 ! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads
 !              and fake webisite outlets, shoes
 !	
-! Last modified: 2024-09-27T03:35:00
+! Last modified: 2025-02-22T19:30:00
 
 ||www.googleadservices.com^
 
 ! Gambling
 ||admiral.hr^
-||www.admiral.hr^
-||chat.admiral.hr^
-||lotto.admiral.hr^
-||widget.admiral.hr^
 
 ! Viber ads
 ||ads.aws.viber.com^
@@ -60,6 +56,10 @@
 
 !!0
 ||0h7kjy.cn^
+
+!!2
+||24sata.tech^
+||234doo.com^
 
 !!B
 ||besttrackings.com^
