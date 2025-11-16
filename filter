@@ -3,7 +3,7 @@
 ! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads
 !              and fake webisite outlets, shoes
 !	
-! Last modified: 2025-03-20T17:37:00
+! Last modified: 2025-11-16T05:00:00
 
 ||www.googleadservices.com^
 
@@ -77,7 +77,6 @@
 ||fungamess.games^
 
 !!G
-||gdjesi14.cfd^
 ||2412.ginseemore.live^
 ||cdn.germaniasport.hr^
 ||grets.store^
@@ -107,7 +106,6 @@
 
 !!N
 ||ncvsn.com^
-||n1infa.com^
 
 !!O
 ||oddservice.live^
@@ -127,13 +125,7 @@
 ||topawardhere.life^
 
 !!V
-||vijesti136.shop^
-||vijesti234.shop^
-||vijesti235.shop^
-||vasezdravlje.store^
 ||vanityfuse.com^
 
 !! Malicious IP-s
-||91.193.43.151^
-||79.137.206.177^
-||212.113.119.6^
+
