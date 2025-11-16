@@ -1,3 +1,9 @@
+!
+! Title: AdGuard DNS Whitelist
+! Description: Whitelist for AdGuard Home.
+!	
+! Last modified: 2025-11-16T04:24:00
+
 @@||cc-api-data.adobe.io^
 @@||google-analytics.com^
 @@||analytics.google.com^
@@ -13,3 +19,6 @@
 @@||iadsdk.apple.com^
 @@||tr.iadsdk.apple.com^
 @@||xp.apple.com^
+@@||ahrefs.com^
+@@||www.zavalise.com^
+@@||surveyserver.nextcloud.com^
