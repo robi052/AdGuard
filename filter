@@ -3,7 +3,7 @@
 ! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads
 !              and fake webisite outlets, shoes
 !	
-! Last modified: 2025-11-16T05:00:00
+! Last modified: 2025-11-16T05:23:00
 
 ||www.googleadservices.com^
 
@@ -15,7 +15,6 @@
 ||rmp.rakuten.com^
 
 ! Malicious and spam web sites
-||131.skinhides.buzz^
 ||get-the-prize-ht3.live^
 ||burnihhell.live^
 ||ads-enterprise.de^
