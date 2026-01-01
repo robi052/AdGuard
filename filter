@@ -1,19 +1,21 @@
 ! Title: AdGuard DNS Filter - Croatia & Balkans Custom
-! Description: Cleaned list focusing on regional ads, news portal trackers, and fraudulent webshops.
-! Last modified: 2026-01-01T17:15:00
-! Version: 1.1
+! Homepage: https://github.com/robi052/AdGuard
+! Issues: https://github.com/robi052/AdGuard/issues
+! Description: Filters for AdGuard Home based on Croatian news portals and other sites with ads.
+! Version: 1.2.0
+! Last modified: 2026-01-01T17:35:00
 ! Expires: 7 days
 
 ! ----------------------------------------------------------------------
-! [MESSAGING & SOCIAL] - Viber/Rakuten ad servers
+! [MESSAGING & SOCIAL]
 ! ----------------------------------------------------------------------
 ||ads.aws.viber.com^
 ||rmp.rakuten.com^
 
 ! ----------------------------------------------------------------------
-! [NATIVE AD NETWORKS] - Regional ad providers (Midas, MonadPlug)
+! [NATIVE AD NETWORKS]
 ! ----------------------------------------------------------------------
-! Midas Network (Common on Croatian news portals)
+! --- Midas Network ---
 ||midas-network.com^
 ||api.midas-network.com^
 ||cdn.midas-network.com^
@@ -21,17 +23,19 @@
 ||images1.midas-network.com^
 ||www.midas-network.com^
 
-! MonadPlug & Others
+! --- MonadPlug ---
 ||monadplug.com^
 ||cdn.monadplug.com^
 ||monadlead.com^
+
+! --- Others ---
 ||advertisemedia.co^
 ||panel.advertisemedia.co^
 ||ads.vecer.mk^
 ||googlesyndication.com^
 
 ! ----------------------------------------------------------------------
-! [GAMBLING & CASINO] - Local HR gambling sites and trackers
+! [GAMBLING & CASINO]
 ! ----------------------------------------------------------------------
 ||admiral.hr^
 ||casinosenator.hr^
@@ -49,7 +53,7 @@
 ||campaignharvest.com^
 
 ! ----------------------------------------------------------------------
-! [FRAUD, SCAMS & FAKE SHOPS] - Malicious sites and fake "natural cures"
+! [FRAUD, SCAMS & FAKE SHOPS]
 ! ----------------------------------------------------------------------
 ||limitedcharm.com^
 ||0h7kjy.cn^
@@ -69,7 +73,7 @@
 ||vanityfuse.com^
 
 ! ----------------------------------------------------------------------
-! [SPAM & POPUPS] - Push notifications and redirects
+! [SPAM & POPUPS]
 ! ----------------------------------------------------------------------
 ||s-eu-1.pushpushgo.com^
 ||modovia.de^
@@ -81,8 +85,8 @@
 ||da.gd^
 
 ! ----------------------------------------------------------------------
-! [MISC / POTENTIAL FALSE POSITIVES]
+! [POTENTIAL FALSE POSITIVES]
 ! ----------------------------------------------------------------------
-! Note: Blocked in original list. Unblock if crypto/decentralized services fail.
+! If you use IPFS or Bitpanda, deactivate these rules as needed.
 ||bitpanda.com^
 ||ipfs.io^
