@@ -1,116 +1,88 @@
-!
-! Title: AdGuard DNS filer
-! Description: Filters for AdGuard Home based on Croatian news portals and other web sites with ads
-!              and fake webisite outlets, shoes
-!	
-! Last modified: 2025-11-16T13:20:00
+! Title: AdGuard DNS Filter - Croatia & Balkans Custom
+! Description: Cleaned list focusing on regional ads, news portal trackers, and fraudulent webshops.
+! Last modified: 2026-01-01T17:15:00
+! Version: 1.1
+! Expires: 7 days
 
-||www.googleadservices.com^
-
-! Gambling
-||admiral.hr^
-
-! Viber ads
+! ----------------------------------------------------------------------
+! [MESSAGING & SOCIAL] - Viber/Rakuten ad servers
+! ----------------------------------------------------------------------
 ||ads.aws.viber.com^
 ||rmp.rakuten.com^
 
-! Malicious and spam web sites
-||modovia.de^
-||mo01.biz^
-||find-topaward-here.life^
-||322.birdphifelt.live^
-||amismdocumentazione.it^
-
-! Macedonia ads
-||ads.vecer.mk^
-
-! Ads
-||advertisemedia.co^
-||panel.advertisemedia.co^
-
-! Phishing
-||povrat-poreza.web.app^
-||hr-porezna.web.app^
-||uprave-porezna.web.app^
-||porezne-hr.web.app^
-||kar.razas.site^
-
-! Popups
-||s-eu-1.pushpushgo.com^
-
-!Fraud webistes
-!!L
-||limitedcharm.com^
-
-!!0
-||0h7kjy.cn^
-
-!!2
-||24sata.tech^
-||234doo.com^
-
-!!B
-||besttrackings.com^
-||bitpanda.com^
-
-!!C
-||campaignharvest.com^
-||chelart-events.fr^
-||track.click999.com^
-
-!!D
-||da.gd^
-
-!!F
-||fungamess.games^
-
-!!G
-||cdn.germaniasport.hr^
-
-!!I
-||instacreativedeals.com^
-||intercom.io^
-||ipfs.io^
-
-!!K
-||kfodjeos.com^
-
-!!L
-||lijeciprirodno.info^
-
-!!M
+! ----------------------------------------------------------------------
+! [NATIVE AD NETWORKS] - Regional ad providers (Midas, MonadPlug)
+! ----------------------------------------------------------------------
+! Midas Network (Common on Croatian news portals)
 ||midas-network.com^
 ||api.midas-network.com^
 ||cdn.midas-network.com^
 ||cdn2.midas-network.com^
 ||images1.midas-network.com^
 ||www.midas-network.com^
+
+! MonadPlug & Others
 ||monadplug.com^
 ||cdn.monadplug.com^
 ||monadlead.com^
+||advertisemedia.co^
+||panel.advertisemedia.co^
+||ads.vecer.mk^
+||googlesyndication.com^
 
-!!N
-||ncvsn.com^
-
-!!O
-||oddservice.live^
-
-!!P
-||povratakprirodi.online^
-
-!!R
-||repappcloud.com^
-||ricid-influencerk.ct.ws^
+! ----------------------------------------------------------------------
+! [GAMBLING & CASINO] - Local HR gambling sites and trackers
+! ----------------------------------------------------------------------
+||admiral.hr^
+||casinosenator.hr^
+||senator.hr^
+||cdn.germaniasport.hr^
 ||roostake.com^
 
-!!S
-||spincireday.com^
+! ----------------------------------------------------------------------
+! [TRACKING & ANALYTICS]
+! ----------------------------------------------------------------------
+||cdn.appsflyer.com^
+||intercom.io^
+||besttrackings.com^
+||track.click999.com^
+||campaignharvest.com^
 
-!!T
+! ----------------------------------------------------------------------
+! [FRAUD, SCAMS & FAKE SHOPS] - Malicious sites and fake "natural cures"
+! ----------------------------------------------------------------------
+||limitedcharm.com^
+||0h7kjy.cn^
+||24sata.tech^
+||234doo.com^
+||chelart-events.fr^
+||fungamess.games^
+||instacreativedeals.com^
+||kfodjeos.com^
+||lijeciprirodno.info^
+||povratakprirodi.online^
+||ncvsn.com^
+||oddservice.live^
+||repappcloud.com^
+||ricid-influencerk.ct.ws^
 ||topawardhere.life^
-
-!!V
 ||vanityfuse.com^
 
-!! Malicious IP-s
+! ----------------------------------------------------------------------
+! [SPAM & POPUPS] - Push notifications and redirects
+! ----------------------------------------------------------------------
+||s-eu-1.pushpushgo.com^
+||modovia.de^
+||mo01.biz^
+||find-topaward-here.life^
+||322.birdphifelt.live^
+||amismdocumentazione.it^
+||spincireday.com^
+||da.gd^
 
+! ----------------------------------------------------------------------
+! [MISC / POTENTIAL FALSE POSITIVES]
+! ----------------------------------------------------------------------
+! Note: Blocked in original list. Unblock if crypto/decentralized services fail.
+||bitpanda.com^
+||ipfs.io^
